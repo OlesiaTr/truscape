@@ -3,7 +3,7 @@ import React, { FC } from 'react';
 export interface Props {}
 
 const Sidebar: FC<Props> = (props) => {
-  return <div></div>;
+  return <aside>Hello</aside>;
 };
 
 export default Sidebar;

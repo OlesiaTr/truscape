@@ -25,7 +25,7 @@ const StatusLabel: FC<Props> = ({ children, status }) => {
       )}
     >
       <div className="bg-current rounded-full mr-2 w-1 h-1" />
-      {children}
+      {/* {children} */}
     </div>
   );
 };
