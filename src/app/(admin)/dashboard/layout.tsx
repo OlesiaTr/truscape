@@ -1,11 +1,19 @@
-import React, { FC, ReactElement } from 'react';
+import React, { FC, ReactNode } from 'react';
 
 export interface Props {
-  children: ReactElement;
+  children: ReactNode;
+  sales: ReactNode;
 }
 
-const Layout: FC<Props> = ({ children }) => {
-  return <div>{children}</div>;
+const Layout: FC<Props> = ({ children, sales }) => {
+  return (
+    <div>
+      {children}
+      <main>
+        <div>{sales}</div>
+      </main>
+    </div>
+  );
 };
 
 export default Layout;

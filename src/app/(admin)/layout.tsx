@@ -9,7 +9,7 @@ const Layout: FC<Props> = ({ children }) => {
   return (
     <>
       <Sidebar />
-      {children}
+      <div className="ml-60">{children}</div>
     </>
   );
 };
